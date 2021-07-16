@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="urf-8"/>
+        <title></title>
+        <style>
+            .left {
+                position: fixed;
+                top: 6px;
+                right: 6px;
+                height:48px;
+                width: 212.7px;
+                text-align: center;
+            }
+
+            .top-a1{
+                display: inline-block;
+                position: absolute;
+                top:14.5px;
+                left:0;
+            }
+            .top-a2{
+                display: inline-block;
+                position: absolute;
+                top:14.5px;
+                left:48px;
+            }
+
+            .menu{
+                display: inline-block;
+                position: absolute;
+                top:0px;
+                left:96px;
+                width :32px;
+                height:32px;
+                padding:8px;
+            }
+            .profile{
+                display: inline-block;
+                position: absolute;
+                top:0px;
+                left:144px;
+                border-radius: 70%;
+                width: 32px;
+                height: 32px;
+                padding:8px;
+                cursor:pointer;
+            }
+            a.top-a1:link { color: white; text-decoration: none;}
+            a.top-a1:visited { color: white; text-decoration: none;}
+            a.top-a1:hover { color: white; text-decoration: underline;}
+
+            a.top-a2:link { color: white; text-decoration: none;}
+            a.top-a2:visited { color: white; text-decoration: none;}
+            a.top-a2:hover { color: white; text-decoration: underline;}
+
+
+            .mid{
+                width:582px;
+                align-items: center;
+                margin:0 auto;
+            }
+            .logo-div{
+                align-items: center;
+            }
+            .logo{
+                display : block;
+                cursor:pointer;
+                width:272px;
+                height: 95px;
+                margin:0 auto;
+                margin-top:190px;
+            }
+            .input-text{
+                display:inline-block;
+                margin:2px auto;
+                width:582px;
+                height: 44px;
+                background-color: #202124;
+                border:rgba(255,255,255,.54) 1px solid;
+                border-radius:25px;
+                margin-top:20px;
+                z-index: -1;
+            }
+            .search{
+                display: inline-block;
+                position: relative;
+                left:5px;
+                width :20px;
+                height:20px;
+                padding:10px;
+            }
+            textarea{
+                position:relative;
+                left: 0px;
+                margin-top: 4px;
+                margin-bottom: 5px;
+                height: 29px;
+                background-color: #202124;
+                border:none;
+            }
+            .keybord{
+                display: inline-block;
+                position:relative;
+                margin-bottom: 14px;
+                cursor:pointer;
+            }
+            .mic{
+                display: inline-block;
+                position: relative;
+                left:5px;
+                width :20px;
+                height:20px;
+                padding:10px;
+                cursor:pointer;
+            }
+            .button-div{
+                text-align:center;
+                padding-top: 18px;
+                font-size:13px;
+                color:rgba(255,255,255,.54);
+            }
+            button{
+                display:inline-block;
+                background-color: #303134;
+                color:white;
+                font-size:14px;
+                height: 36px;
+                margin:11px 4px;
+                border: 1px solid #303134;
+            }
+            button:hover {border:1px solid white;}
+            .eng{
+                color:#8AB4F8;
+            }
+            a.eng:link { color: #8AB4F8; text-decoration: none;}
+            a.eng:hover { color: #8AB4F8; 
+                text-decoration: underline;
+                cursor:pointer;}
+
+
+
+            .bot1{
+                position:fixed;
+                bottom:47px;
+                left:0;
+                height: 16px;
+                width:100%;
+                background-color: #17181b;
+                padding: 15px 30px;
+                text-align: justify;
+                border-bottom: 0.5px solid #202124;
+                color : rgba(255,255,255,.54);
+                font-size: 13px;
+            }
+            .bot2{
+                display: inline-block;
+                position:fixed;
+                bottom:0px;
+                left:0;
+                height: 16px;
+                width:50%;
+                background-color: #17181b;
+                padding: 15px 30px;
+                color : rgba(255,255,255,.54);
+                text-align: left;
+            }
+            .bot3{
+                display: inline-block;
+                position:fixed;
+                bottom:0px;
+                right:0;
+                height: 16px;
+                width:50%;
+                background-color: #17181b;
+                padding: 15px 30px;
+                color : rgba(255,255,255,.54);
+                text-align: right;
+            }
+
+            span{
+                padding:15px;
+                font-size:13px;
+            }
+            span:link { color: rgba(255,255,255,.54); text-decoration: none;}
+            span:visited { color: rgba(255,255,255,.54); text-decoration: none;}
+            span:hover { color: rgba(255,255,255,.54); text-decoration: underline;}
+
+
+
+
+            body{
+                background-color: #202124;
+                color : white;
+                width: 100%;
+            }
+        </style>
+    </head>
+
+
+    <body >
+        <!--top-->
+        <div class="left"> 
+            <a class="top-a1" href="https://mail.google.com/mail/&ogbl">Gmail</a>
+            <a class="top-a2" href="https://www.google.co.kr/imghp?hl=ko&ogbl">이미지</a>
+            <svg class="menu" focusable="false" viewBox="0 0 24 24"><path fill="#fff"d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
+            <img class="profile" src="https://lh3.googleusercontent.com/-e7Ih4GaCsmg/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucnB0OoVR5MKg34_epJKuEnpH9EuvA/s48-c/photo.jpg" alt="개인 계정 로고">
+        </div>
+
+
+        <!--mid-->
+        <div class="mid">
+            <div class="logo-div">
+                <img class="logo" src ="https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_272x92dp.png" alt="구글 로고">
+            </div>
+            <div>
+                <div class="input-text">
+                    <svg class="search" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#fff" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                    <textarea id="search" name="search" rows="1" cols="55"style="resize: none;"></textarea>
+                    <img class="keybord" src="//www.gstatic.com/inputtools/images/tia.png" alt="키보드 이미지">
+                    <svg class="mic" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="#4285f4" d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z"></path><path fill="#34a853" d="m11 18.08h2v3.92h-2z"></path><path fill="#fbbc04" d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z"></path><path fill="#ea4335" d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z"></path></svg>
+                </div>
+            </div>
+            <div class="button-div">
+                <button>Google 검색</button><button>I'm Feeling Lucky</button>
+            </div>
+            <div class="button-div">
+                Google 제공 서비스: <a class="eng">English</a>
+            </div>
+        </div>
+
+
+        <!--bot-->
+        <div>
+            <div class="bot1">대한민국</div>
+            <div >
+                <div class="bot2">
+                    <span>Google 정보</span>
+                    <span>광고</span>
+                    <span>비즈니스</span>
+                    <span>검색의 원리</span>
+                </div>
+                <div class="bot3">
+                    <span>개인정보처리방침</span>
+                    <span>약관</span>
+                    <span>설정</span>
+                </div>
+            </div>
+            
+
+        </div>
+    </body>
+</html>

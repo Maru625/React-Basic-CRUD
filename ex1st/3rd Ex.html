@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="urf-8"/>
+        <title></title>
+    </head>
+
+    <body>
+        <form action="#" method="get">
+            <!--form태그는 사용자의 input을 받아올수 있도록 하는 태그-->
+            <!--action 속성은 input값을 받아 가는 서버의 주소값-->
+            <!--method 속성은 정보가 가는 방식을 결정함 get과 post가 있음, 
+                get은 문서 해더에 정보가 암호화 되지 않음 회원 정보등에 사용, 기본값임, post는 암호화 되어 문서 해더에 전송-->
+            일반 : <input type="text" name="username"/><br/>
+            비밀번호 : <input type="password" name="userpassword"/><br />
+            유일한 체크 : <input type="radio" name="gender" value="man"> 남
+                        <input type="radio" name="gender" value="woman"> 여<br />
+            여러개 체크 : <input type="checkbox" name="langue" value="kor"> 한글
+                        <input type="checkbox" name="langue" value="eng"> 영어<br />
+            text여러줄 : <textarea rows="5" cols="20">행 5줄, 열 20줄 짜리 공간 생성</textarea><br />
+            선택형 박스 : <select>
+                        <option>서울</option>
+                        <option>부산</option>
+                        <option>인천</option>
+                        </select>
+            여러개 박스 : <select multiple="multiple">
+                        <option>서울</option>
+                        <option>부산</option>
+                        <option>인천</option>
+                        </select><br />
+            정보 보내는 버튼 : <input type="submit"/>
+        </form>
+
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+
+        <span>1</span>
+        <span>2</span>
+        <span>3</span><br />
+
+        <video controls="controls">
+            <source src="화면 기록 2021-06-20 오후 2.07.58.mov" type="video/mov"/>
+        </video>
+        <video src="화면 기록 2021-06-20 오후 2.07.58.mov" type="video/mov" controls="controls">
+        </video>
+        <!--video 태그는 비디오를 화면에 출력할수 있도록 하는 태그-->
+    </body>
+</html>
