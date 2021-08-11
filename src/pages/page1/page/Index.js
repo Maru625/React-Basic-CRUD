@@ -1,7 +1,6 @@
 import React, { useState , useEffect} from "react"
 
 import Header from "../content/Header"
-import style from "../css/Todo.scss"
 import InputContent from "../content/InputContent"
 import ToDoList from "../content/ToDoList"
 

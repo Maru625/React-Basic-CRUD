@@ -120,3 +120,51 @@ span{
     width: 240px;
     color : white;
 }
+
+.headerMenu{
+    display : flex;
+    justify-content: space-between;
+    padding : 0 30px;
+    .li{
+        display: inline-block;
+        .a{
+            display: inline-block;
+            padding : 0 20px;
+        }
+    }
+}
+
+.JsonItem{
+    padding:0 20px;
+    .li{
+        border:none;
+    }
+}
+.ItemBodyoff{
+    display:none;
+}
+.ItemBodyon{
+    display:block;
+}
+
+.Index3Box{
+    font-size:24px;
+    font-weight: bold;
+    div{
+        text-align: center;
+        margin: 12px 0px;
+        button{
+            margin : 0 12px;
+        }
+    }
+}
+
+.user-name-list{
+    margin : 0 20px;
+    margin-bottom: 12px;
+    p{
+        margin:0;
+        font-weight: 100;
+        font-size:16px;
+    }
+}
